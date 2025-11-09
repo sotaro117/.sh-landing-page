@@ -1,5 +1,6 @@
 import Footer from "@/components/ui/Footer"
 import { Navigation } from "@/components/ui/Navbar"
+import { GoogleAnalytics } from "@next/third-parties/google"
 import { Analytics } from "@vercel/analytics/next"
 import type { Metadata } from "next"
 import { ThemeProvider } from "next-themes"
@@ -62,6 +63,7 @@ export default function RootLayout({
           <Navigation />
           {children}
           <Analytics />
+          <GoogleAnalytics gaId="G-8TWDZE02FR" />
           <Footer />
         </ThemeProvider>
       </body>

@@ -32,7 +32,7 @@ const plans: Plan[] = [
   },
   {
     name: "Ext",
-    price: "9.99€",
+    price: "6.99€",
     description: "For users who want to makes use of unlimited AI features",
     features: [
       "1 extension account",
